@@ -1,0 +1,20 @@
+.archive__item {
+    height: 300px; /* Set a fixed height for grid items */
+    overflow: hidden; /* Hide overflow content */
+    display: flex;
+    flex-direction: column;
+}
+
+.archive__item-teaser img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Ensure teaser images cover the area without distortion */
+    flex-shrink: 0;
+}
+
+.archive__item-content {
+    flex-grow: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
