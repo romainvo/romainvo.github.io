@@ -6,7 +6,7 @@ category: conferences
 date: 2024-09-29
 venue: 'European Conference on Computer Vision (ECCV)'
 codeurl: 'https://github.com/romainvo/pnp-learned-proximal-trajectory'
-# paperurl: 'http://academicpages.github.io/files/paper3.pdf'
+paperurl: 'https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/5164_ECCV_2024_paper.php'
 # citation: 'Your Name, You. (2024). &quot;Paper Title Number 3.&quot; <i>GitHub Journal of Bugs</i>. 1(3).'
 header:
     teaser: '/publications/thumbnail_white_eccv24.png'
