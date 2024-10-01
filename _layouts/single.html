@@ -47,17 +47,17 @@ layout: default
         {{ content }}
 
         {% if page.citation and page.paperurl and page.slidesurl %}
-          <p>Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}"><i class="fab fa-fw fa-github zoom" aria-hidden="true"></i></a> | <a href="{{ page.slidesurl }}">Download Slides</a></p>
+          <p>Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}"><i class="fas fa-file-alt" aria-hidden="true"></i></a> | <a href="{{ page.slidesurl }}">Download Slides</a></p>
         {% elsif page.citation and page.paperurl %}
-          <p>Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}"><i class="fab fa-fw fa-github zoom" aria-hidden="true"></i></a></p>
+          <p>Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}"><i class="fas fa-file-alt" aria-hidden="true"></i></a></p>
         {% elsif page.citation and page.slidesurl %}
           <p>Recommended citation: {{ page.citation }}<br /><a href="{{ page.slidesurl }}">Slides</a></p>
         {% elsif page.citation %}
           <p>Recommended citation: {{ page.citation }}</p>
         {% elsif page.paperurl and page.codeurl %}
-          <p><a href="{{ page.paperurl }}"><i class="fab fa-fw fa-github zoom" aria-hidden="true"></i></a> | <a href="{{ page.codeurl }}"><i class="fab fa-fw fa-github zoom" aria-hidden="true"></i></a></p>
+          <p><a href="{{ page.paperurl }}"><i class="fas fa-file-alt" aria-hidden="true"></i></a> | <a href="{{ page.codeurl }}"><i class="fab fa-fw fa-github zoom" aria-hidden="true"></i></a></p>
         {% elsif page.paperurl %}
-          <p><a href="{{ page.paperurl }}"><i class="fab fa-fw fa-github zoom" aria-hidden="true"></i></a></p>
+          <p><a href="{{ page.paperurl }}"><i class="fas fa-file-alt" aria-hidden="true"></i></a></p>
         {% elsif page.slidesurl %}
           <p><a href="{{ page.slidesurl }}">Download Slides</a></p>
         {% elsif page.codeurl %}
