@@ -21,15 +21,15 @@ repository               : "romainvo/romainvo.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "moi.jpg"
   name             : "Romain Vo"
   pronouns         : # example: "she/her"
-  bio              : "PhD student - 🧗‍♂🏔️💻🎮👨🏽‍🎓✌️"
-  location         : "Earth"
-  employer         : "CEA List - Mines Paris (CMM)"
+  bio              : "Postdoctoral researcher - 🧗‍♂🏔️💻🎮👨🏽‍🎓✌️"
+  location         : "Lyon"
+  employer         : "CNRS/ENS Lyon"
   uri              : # URLroma
   email            : "voromain@gmail.com"
-  inst_email       : "romain.vo@minesparis.psl.eu"
+  inst_email       : "romain.vo@ens-lyon.fr"
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
